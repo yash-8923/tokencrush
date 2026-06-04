@@ -1,0 +1,23 @@
+# tokencrush cache
+.tokencrush_cache.json
+.tokencrush_output/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+
+# Node
+node_modules/
+
+# Test
+test_project/
+
+# OS
+.DS_Store
+Thumbs.db

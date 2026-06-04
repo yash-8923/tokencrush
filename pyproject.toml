@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tokencrush"
+version = "0.2.0"
+description = "Auto-compress docs for Claude Code. Save tokens. Show numbers."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "tokencrush" }]
+keywords = ["claude", "claude-code", "tokens", "markitdown", "llm", "compression"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+dependencies = [
+    "markitdown[all]>=0.1.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+tokencrush = "tokencrush.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yash-8923/tokencrush"
+Repository = "https://github.com/yash-8923/tokencrush"
+
+[dependency-groups]
+dev = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["tokencrush"]

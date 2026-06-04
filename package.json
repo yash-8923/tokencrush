@@ -1,0 +1,32 @@
+{
+  "name": "tokencrush",
+  "version": "0.1.0",
+  "description": "Auto-compress docs for Claude Code. Save tokens. Show numbers.",
+  "bin": {
+    "tokencrush": "./bin/tokencrush.js"
+  },
+  "scripts": {
+    "postinstall": "node bin/tokencrush.js init"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "tokens",
+    "llm",
+    "markitdown",
+    "compression",
+    "ai"
+  ],
+  "author": "tokencrush",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/tokencrush"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "bin/"
+  ]
+}
