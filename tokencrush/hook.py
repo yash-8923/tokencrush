@@ -4,6 +4,8 @@ warnings.filterwarnings("ignore")
 import logging
 logging.disable(logging.CRITICAL)
 
+import os
+import sys
 from pathlib import Path
 
 def run_hook(directory: str = "."):
