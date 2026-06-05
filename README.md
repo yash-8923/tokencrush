@@ -1,8 +1,8 @@
 <div align="center">
 
-# tokencrush ⚡
+# ⚡Tokencrush ⚡
 
-### Stop burning money on tokens your LLM doesn't need.
+### **Reduce your token cost by 80%**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
@@ -15,7 +15,7 @@
 
 ## 🚀 Quickstart
 
-**Windows:**
+**Windows (Recommended):**
 ```powershell
 irm https://raw.githubusercontent.com/yash-8923/tokencrush/main/install.ps1 | iex
 ```
@@ -46,13 +46,13 @@ That's it. tokencrush silently runs before every Claude Code session — forever
 
 | Project | Tokens Saved | Reduction | Monthly Savings* |
 |---|---|---|---|
-| Rust docs (full) | **2,100,000** | **78%** | **$10,500** |
+| Rust docs  | **2,100,000** | **78%** | **$10,500** |
 | Python 3.12 docs | **646,678** | **81%** | **$3,230** |
 | HTML docs site (120 files) | **1,890,000** | **72%** | **$9,450** |
 | Research papers (20 PDFs) | **1,260,000** | **68%** | **$6,300** |
 | PowerPoint deck | **520,000** | **65%** | **$2,600** |
 
-*Based on Claude Opus 4.8 pricing ($5/1M tokens) · 20 sessions/day · 30 days
+* Based on Claude Opus 4.8 pricing ($5/1M tokens) · 20 sessions/day · 30 days
 
 > **Teams using tokencrush save $3,000–$10,000/month on token costs. Per developer.**
 
